@@ -7,6 +7,10 @@
     Returns:
         True or False
 */
+bool func(String a, String b) {
+  return a.length == b.length;
+}
+
 void main() {
   // write your code here
 }

@@ -7,6 +7,13 @@
     Returns:
         str: answer
 */
+String func(String s) {
+  if (s.length % 2 == 1) {
+    return s[s.length ~/ 2];
+  }
+  return s[s.length ~/ 2 - 1] + s[s.length ~/ 2];
+}
+
 void main() {
   // write your code here
 }
